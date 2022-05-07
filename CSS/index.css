@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom left, black, rgb(110, 97, 74));
+}
+
+/* everything about navbar */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 20px 10px 0px;
+}
+
+.horizontal-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* -----------end---------- */
+
+
+
+/* everything about your favorite band section */
+#your-favband{
+
+}
+
+.favband-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 2px solid white; */
+    padding: 0px 50px;
+    margin-top: -10px;
+    align-items: center;
+}
+
+.favband_image-container{
+    max-width: 150px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    /* border: 2px solid white; */
+}
+
+.favband_image-container a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* everything about top artists section */
+
+.top-artist-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* border: 2px solid white; */
+    padding: 0px 50px;
+    margin-top: -10px;
+}
+
+.top-artist-image-container{
+    max-width: 150px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    /* border: 2px solid white; */
+}
+
+.top-artist-image-container a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* commonly used classes */
+.text-center{
+    text-align: center;
+}
+
+/* --------end--------- */
