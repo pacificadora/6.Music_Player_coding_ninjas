@@ -1,11 +1,14 @@
 body{
     padding: 0;
     margin: 0;
-    width: 100%;
-    background-image: linear-gradient(to bottom left, black, rgb(110, 97, 74));
+    background-color: rgb(28, 13, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-/* everything about navbar */
+/*everything about navbar */
 .horizontal-list{
     list-style: none;
     padding-left: 0px;
@@ -25,27 +28,63 @@ body{
 /* -----------end---------- */
 
 
-
-/* everything about your favorite band section */
-#your-favband{
-
+.whole-content{
+    width: 90%;
+    height: 90%;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+/* aside section specifiactions */
+aside{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin-right: 7px;
+}
+
+.song-list{
+    position: relative;
+    border: 2px solid white;
+    background-color: rgb(43, 34, 17);
+    width: 90%;
+    height: 100%;
+    box-shadow: 5px 0px 2px rgb(49, 37, 16);
+}
+
+/* the end of the side section */
+
+
+
+
+
+/* main section specifications */
+main{
+    width: 70%;
+    display: block;
+}
+
+
+/* everything about your favorite band section */
 .favband-container{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     border: 2px solid white;
-    padding: 0px 50px;
     margin-top: -10px;
+    margin-bottom: 50px;
     align-items: center;
 }
 
 .favband_image-container{
-    max-width: 150px;
+    max-width: 100px;
+    max-height: 100px;
     overflow: hidden;
     margin: 10px;
     position: relative;
+    margin-bottom: 30px;
     border: 2px solid white;
 }
 
@@ -56,20 +95,47 @@ body{
 
 
 
-/* everything about top artists section */
+/* everything about RECENT section */
+.recent-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
 
+.recent-image-container{
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    border: 2px solid white;
+}
+
+.recent-image-container a img{
+    width: 100%;
+}
+/*--------------end----------------*/
+
+
+
+
+/* everything about top artists section */
 .top-artist-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
     border: 2px solid white;
-    padding: 0px 50px;
     margin-top: -10px;
 }
 
 .top-artist-image-container{
-    max-width: 150px;
+    max-width: 100px;
+    max-height: 100px;
     overflow: hidden;
     margin: 10px;
     position: relative;
@@ -81,17 +147,14 @@ body{
     height: 100%;
     border-radius: 50%;
 }
+/* ------------------end--------------- */
 
 
 
+/* everything about master player bottom at the screen */
+footer .master-player{
 
-
-
-
-
-
-
-
+}
 
 
 
